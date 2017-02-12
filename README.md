@@ -5,7 +5,9 @@ There are 2 ways to run the program:
 
 1. Using a java IDE (e.g.: Intellij)  
 
-	Import the maven project and simply run the program.  
+	Import the maven project and simply run the program. 
+The program uses the args to take the website to crawl, therefore please setup the argument: "http://www.gocardless.com" - for example.
+In Intellij you can do this by going to: `Run` -> `Edit configurations` -> In the `Program arguments` field type the website you want to crawl.
 
 2. Using the terminal  
 
